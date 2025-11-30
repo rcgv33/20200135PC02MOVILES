@@ -126,7 +126,7 @@ fun GameScreen(viewModel: GameViewModel = viewModel()) {
                 }
             }
             is GameUiState.Idle -> {
-                Text("Ingresa cuántas cartas quieres y presiona Jugar")
+                Text("Ingrese cuantas cartas quieres y presione jugar", style = MaterialTheme.typography.headlineSmall, modifier = Modifier.padding(16.dp))
             }
         }
     }
